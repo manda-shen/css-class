@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1 {
+            width: 300px;
+            height: 300px;
+            background: lightpink;
+            color: aliceblue;
+            /* 
+            padding => 內距
+            margin => 外距
+            一次設定:
+
+            一個值:上下左右
+            兩個值:上下、左右
+            三個值:上、左右、下
+            四個值:上、右、下、左
+
+            padding(/margin)-top    上面
+            padding(/margin)-bottom 下面
+            padding(/margin)-left   左邊
+            padding(/margin)-right  右邊
+
+            margin 
+            左右(指的是只設兩個值時)設為auto時，為置中
+            右邊設為 auto，可以靠左(看不出來，因為不設時也是自動靠左)
+            左邊設為 auto，可以靠右
+             */
+            padding: 10px 20px 30px 40px;
+            margin: 30px 0 50px auto;
+            /* border: 依次=> border-width border-style border-color*/
+            /* 同時設定四個邊 */
+            /* border: 1 solid black */
+            /* 也可以單獨設一邊或單獨一邊設定單獨的值 */
+            border-top: 5px solid rgb(243, 214, 225);
+            border-bottom: 5px solid rgb(243, 214, 225);
+            border-top-right-radius: 15%;
+            border-bottom-left-radius: 15%;
+            /* 外框；不佔大小，位置在 border 以外，陰影效果也不算在內 */
+            outline: 3px dashed rgb(165, 180, 182);
+            /* 外框和 border 之間的距離 */
+            outline-offset: 10px;
+            box-shadow: ;
+            /* box-sizing: bordor-box是設定包含內容、padding、邊框的範圍尺寸，比較容易控制尺寸 */
+            /* content-box 只包含內容區 */
+            box-sizing: border-box;
+        }
+
+        #div2 {
+            margin-top: -100px;
+            color: rgb(59, 59, 104);
+            text-align: justify;
+            width: 300px;
+            height: 300px;
+            background: rgb(186, 222, 228);
+            backdrop-filter: blur(50%);
+            padding: 20px;
+            /* 
+            overflow是內容超出內容區時的處理方式，
+            auto    自動
+            visible 看的到
+            hidden  隱藏
+             */
+            overflow: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div1">表面視頻她們很少一天防治，作者依靠，圖。</div>
+    <div id="div2">
+        經過三大承諾國有，重點按鈕應該網上數字萬元辦理商品元素滿意有些網域名稱，平台通用不禁指標近日重新公告，淡淡策劃本網是個加速進步此次風格同志之中，日本消息主持吃螺絲圍繞口氣，交通經驗而言連接，但他我會當天廠商順利手指等人發行但他十二信號，大部分平時開通發揮實施，成人先進教育醫療論文責任有着如果你幫你回家輸入，上升運輸這樣女性幫我功夫增長廠家為主進行體現方式，之前此刻戀愛工商製品高速兩位時期大大留下走向緩緩，站點業務能否老人概念明白，完美部門忽然可以說，承擔推廣，觀點共享此處交流曾經執行時間光碟儀器，生產光臨媽媽靜靜國內外集團不良，你的教授路線經驗西部機器醫生不錯水溝成立課堂，我要綠色文章對我保。
+    </div>
+
+</body>
+
+</html>

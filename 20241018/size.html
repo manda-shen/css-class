@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* #代表ID，.代表class */
+        /* vw=視窗的寬度，100vw為全滿，50則是一半 */
+        #vw {
+            width: 50vw;
+            height: 100px;
+            background: gray;
+            font-size: large;
+        }
+
+        #vh {
+            width: 50vh;
+            height: 50px;
+            background: rgb(240, 199, 199);
+            font-size: large;
+        }
+
+        #vmin {
+            /* vmin=視窗的寬或寬較小的那個 */
+            width: 50vmin;
+            height: 50px;
+            background: lightblue;
+        }
+
+        #vmax {
+            /* vmax=視窗的寬或寬較大的那個 */
+            width: 50vmax;
+            height: 50px;
+            background: lightseagreen;
+        }
+
+        #out {
+            width: 300px;
+            height: 300px;
+            background: lightgrey;
+        }
+
+        #in {
+            /* calc:不同單位的計算，四則運算符號前後都要有空格 */
+            /* % = 外層元素大小的百分比 */
+            /* 外層必須要設定高度，內層的 % 才會有效 */
+            width: calc(50% + 30px);
+            height: 50%;
+            background-color: wheat;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="vw">vw</div>
+    <div id="vh">vh</div>
+    <div id="vmin">vmin</div>
+    <div id="vmax">vmax</div>
+    <div id="out">
+        <div id="in">in
+        </div>
+    </div>
+
+
+</body>
+
+</html>
